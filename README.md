@@ -1,2 +1,2 @@
 # etch-a-sketch
-A browser version of something between a sketchpad and an Etch-A-Sketch.
+My solution to The Odin Project's "JavaScript Basics" project: Etch-A-Sketch.

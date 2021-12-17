@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Open+Sans:wght@300&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+html {
+  background-color: rgba(234, 11, 41, 1);
+}
+
+#wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 0;
+}
+
+h1 {
+  font-family: 'Ephesis', cursive;
+  text-align: center;
+  font-size: 50px;
+  color: rgba(255, 215, 0, 1);
+  margin: -5px 0;
+}
+
+#reset {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 15px;
+  padding: 15px 5px;
+  border: 4px double rgba(192, 192, 192, 1);
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.5);
+}
+
+#grid {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  border-style: inset;
+  margin-bottom: 5px;
+  background-color: rgba(211, 211, 211, 1);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+}
+
+.square {
+  min-width: 1px;
+  min-height: 1px;
+  flex: 1;
+  background-color: rgb(211, 211, 211, 1);
+}
